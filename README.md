@@ -1,11 +1,9 @@
 # Case
-We want to make smoke tests to verify that http://beta.rikstoto.no works as expected in production.
+We want to make smoke tests to verify that http://beta.rikstoto.no works as expected in production, and you are the test developer in the project. The first phase of the project is considered to be a "mini-pilot".
 
-You are the test developer in the project. 
+We are considering to use Selenium in Python to implement the smoke tests, and we are starting with the front page. 
 
-We have decided to use Selenium in Python to implement the smoke tests, and we are starting with the front page.
-
-We have done some analysis and found that we need 3 tests to verify. 1 is implemented, and you need to implement the other 2.
+The initial analysis has been completed and we found that 3 tests are needed to test the frontpage.
 
 Implement the missing tests to [frontpage_tests.py](tests/frontpage_tests.py)
 
@@ -20,10 +18,10 @@ There are no time restrictions to this case, other than the deadline.
 
 # What are we looking for?
 We are looking for:
-* Clear understanding on how to use Selenium and Python
+* Clear understanding on how (and why) use Selenium and Python
 * Clean code
 
-Note that you will be given the opportunity to explain how you think during the interview. 
+Note that you will be given the opportunity to explain how you think during the interview. We will also have a small discussion about the choice of framwork. Do you have any proposal for other frameworks to use?
 
 # Getting started
 ## Install

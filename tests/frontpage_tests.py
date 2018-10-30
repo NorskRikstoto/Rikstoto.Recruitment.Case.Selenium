@@ -1,12 +1,12 @@
 from selenium import webdriver
 
-def test_find_raceday_timeline(selenium):
+def test_raceday_timeline_heading_is_correct(selenium):
     selenium.get("https://beta.rikstoto.no")
     element = selenium.find_element_by_class_name("race-day-timeline__header__content__title")
     assert element.text == "Bane- og løpsoversikt"
 
-def test_there_are_elements_in_the_timeline(selenium):
-    '''Make a test that verifies that the timeline is not empty'''
+def test_raceday_timeline_is_not_empty(selenium):
+    '''Make a test that verifies that the raceday timeline is not empty'''
     assert False
 
 def test_can_navigate_via_top_menu_to_spill(selenium):
